@@ -6,12 +6,14 @@ Intended uses:
 - Support market analysis and expansion planning for SMEs.
 
 ## Project Structure
+```
 inegi_py/
 ├── utils/
 │   └── client.py       # DenueClient class
 ├── main.py             # Entry point
 ├── .env.example        # Environment variable template
 └── README.md
+```
 
 ## Endpoints
 This API offers the following enpoints:
@@ -30,10 +32,10 @@ This API offers the following enpoints:
 
 ## Setup
 1. Clone the repo
-2. Install dependencies with uv:
-   uv sync
-3. Copy .env.example to .env and add your DENUE token:
-   DENUE_TOKEN=your_token_here
+2. Install dependencies with uv:  
+   `uv sync`
+3. Copy `.env.example` to `.env` and add your DENUE token:  
+   `DENUE_TOKEN=your_token_here`
 
 ## Usage
 ```python
